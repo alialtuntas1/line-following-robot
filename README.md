@@ -1,39 +1,42 @@
-# Çizgi İzleyen Robot
-Bu proje, beyaz bir zemin üzerindeki siyah çizgileri algılayarak bu çizgi boyunca hareket eden otonom bir çizgi izleyen robot sistemini içermektedir. Robot, başlangıç noktası (A noktası) ile hedef noktası (B noktası) arasında çizgiyi takip ederek ilerlemek üzere tasarlanmıştır. Proje, temel robotik prensipleri uygulamalı olarak göstermek amacıyla okul projesi kapsamında geliştirilmiştir.
+# Line Following Robot
 
-## Özellikler
+This project consists of an autonomous line-following robot system that detects black lines on a white surface and moves along the line. The robot is designed to follow the line from the starting point (Point A) to the destination point (Point B). The project was developed as part of a school assignment to demonstrate fundamental robotics principles in practice.
 
-* Çizgi algılama (IR sensörler)
-* Gerçek zamanlı yön kontrolü
-* Basit ve modüler tasarım
-* Kolay geliştirilebilir yapı
+## Features
 
-## Kullanılan Bileşenler
+* Line detection (IR sensors)
+* Real-time direction control
+* Simple and modular design
+* Easily extensible structure
 
-* Arduino Uno mikrodenetleyici
-* DC motorlar
-* TCRT5000 IR Sensörü
-* L298N Motor Sürücü
-* Robot Şase ve Tekerlek Seti
-* Güç kaynağı
+## Components Used
 
-## Kullanılan Dil ve IDE
-* Programlama Dili: C/C++ 
-* Geliştirme Ortamı: VS Code üzerinden PlatformIO
-  
-## Kurulum
-1. Gerekli donanım bağlantılarını yapınız.
-2. Yazılımı bir IDE yardımı ile mikrodenetleyiciye yükleyiniz.
-3. Robotu çizgi üzerine yerleştirerek çalıştırınız.
+* Arduino Uno microcontroller
+* DC motors
+* TCRT5000 IR Sensor
+* L298N Motor Driver
+* Robot Chassis and Wheel Set
+* Power supply
 
-## Çalışma Prensibi
+## Programming Language and IDE
 
-Robot, sensörlerden aldığı veriye göre çizginin konumunu belirler ve motor hızlarını ayarlayarak çizgi üzerinde kalacak şekilde hareket eder.
+* Programming Language: C/C++
+* Development Environment: PlatformIO via VS Code
 
-## Katkı
+## Installation
 
-Katkıda bulunmak isteyenler pull request gönderebilir.
+1. Complete the required hardware connections.
+2. Upload the software to the microcontroller using an IDE.
+3. Place the robot on the line and start it.
 
-## Lisans
+## Working Principle
 
-Bu proje açık kaynaklıdır ve ilgili lisans kapsamında kullanılabilir.
+The robot determines the position of the line based on data received from the sensors and adjusts the motor speeds to remain on the line while moving.
+
+## Contributing
+
+Those who would like to contribute can submit a pull request.
+
+## License
+
+This project is open source and may be used under the terms of the applicable license.
