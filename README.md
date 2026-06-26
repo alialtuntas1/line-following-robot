@@ -21,7 +21,7 @@ This project consists of an autonomous line-following robot system that detects 
 ## Programming Language and IDE
 
 * Programming Language: C/C++
-* Development Environment: PlatformIO via VS Code
+* Development Environment: Arduino IDE
 
 ## Installation
 
